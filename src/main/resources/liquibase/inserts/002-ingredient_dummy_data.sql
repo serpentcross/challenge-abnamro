@@ -1,0 +1,16 @@
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), FALSE, 'Chicken');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), FALSE, 'Beef');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), FALSE, 'Salmon');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), FALSE, 'Tuna');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), FALSE, 'Pork');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), FALSE, 'Egg');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), FALSE, 'Cheese');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), FALSE, 'Noodles');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), TRUE, 'Mushrooms');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), TRUE, 'Potato');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), TRUE, 'Tomato');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), TRUE, 'Carrot');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), TRUE, 'Nuts');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), TRUE, 'Salad');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), TRUE, 'Cabbage');
+INSERT INTO ingredient (id, vegetable, name) VALUES (RANDOM_UUID(), TRUE, 'Rice');

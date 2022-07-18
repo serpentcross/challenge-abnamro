@@ -1,0 +1,19 @@
+{
+  "id": "fb13f32d-7c14-4048-a517-d6d3dbf2d528",
+  "name": "Beef soup.",
+  "instruction": "Cook from water, potato and beef.",
+  "servingAmount": 4,
+  "vegetarian": false,
+  "ingredients": [
+    {
+      "id": "3534fa81-4d88-43fe-bf01-6ee2deef3987",
+      "name": "Beef",
+      "vegetable": false
+    },
+    {
+      "id": "d9d83e87-8c34-4959-a2e0-672304b6a0d7",
+      "name": "Potato",
+      "vegetable": true
+    }
+  ]
+}

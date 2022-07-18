@@ -44,6 +44,12 @@ Gradle     : v7.4 or higher
 OS         : Linux, MacOS or Windows
 ```
 
+### Not necessary, but just in case
+
+```
+Docker     : 19.03.1 or higher
+```
+
 ### Getting Started
 
 ```
@@ -77,6 +83,12 @@ Or you may also just run(without the wrapper):
 gradle build
 ```
 
+### Docker build (If Docker is installed)
+
+```
+./gradlew jibDockerBuild
+```
+
 ### Starting application
 
 Run next command
@@ -84,6 +96,15 @@ Run next command
 ```
 ./gradlew bootRun
 ```
+
+### Starting application via Docker
+
+Run next command
+
+```
+docker run cooking/cooking-api:0.0.1
+```
+
 
 ### Running and testing
 
@@ -93,9 +114,48 @@ The REST-api runs on address
 http://localhost:8080/api
 ```
 
+Possible test call
+
+```
+curl -X 'GET' \
+  'http://localhost:8080/api/recipes?vegetarian=true&servings=4' \
+  -H 'accept: application/json
+```
+
+Should return a response in JSON format:
+
+```
+[
+  {
+    "id": "e57c70c4-9457-47c1-ac4a-84c64f7a200d",
+    "name": "Boiled potato",
+    "instruction": "Potato, Carrot, Cabbage",
+    "servingAmount": 4,
+    "vegetarian": true,
+    "ingredients": [
+      {
+        "id": "1249113c-29f0-4271-96a0-0de4f3a66ed7",
+        "name": "Potato",
+        "vegetable": true
+      },
+      {
+        "id": "6a34cdec-9380-43e3-915a-09c67d0e03f6",
+        "name": "Carrot",
+        "vegetable": true
+      },
+      {
+        "id": "31862764-bde4-4e84-9f42-51914f64e3f1",
+        "name": "Cabbage",
+        "vegetable": true
+      }
+    ]
+  }
+]
+```
+
 ### Documentaion
 
-A detailed documentation, which contains full API description  is located there:
+A detailed documentation, which contains full API description is located there:
 ```
 http://localhost:8080/api/swagger-ui/index.html
 ```
@@ -108,6 +168,5 @@ http://localhost:8080/api/v3/api-docs
 
 ### Possible upgrades
 
-- wrap API in Docker container;
 - using API-versioning;
 - implementing audit feature (via AuditableEntity);

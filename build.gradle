@@ -2,7 +2,35 @@ plugins {
 	id 'org.springframework.boot' version '2.7.0'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id "com.google.cloud.tools.jib" version "3.2.1"
 }
+
+apply plugin: "com.google.cloud.tools.jib"
+
+version = "0.0.1"
+
+jib {
+	from {
+		image = "openjdk:11-jdk"
+	}
+	to {
+		image = 'localhost:5000/cooking/cooking-api'
+		tags = [version]
+	}
+	container {
+		jvmFlags = ['-Xms1024m',
+					'-Xdebug',
+					'-Djava.rmi.server.hostname=185.22.61.79',
+					'-Dcom.sun.management.jmxremote.ssl=false',
+					'-Dcom.sun.management.jmxremote.authenticate=false',
+					'-Dcom.sun.management.jmxremote.port=9112',
+					'-Dcom.sun.management.jmxremote.rmi.port=9112',
+					'-Dcom.sun.management.jmxremote.local.only=false']
+		mainClass = "com.cooking.api.CookingApplication"
+	}
+}
+
+jib.to.image = "cooking/${rootProject.name}"
 
 sourceCompatibility = '11'
 
@@ -25,7 +53,7 @@ dependencies {
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
 
-	runtimeOnly("org.postgresql:postgresql")
+	runtimeOnly("com.h2database:h2")
 
 	implementation("org.liquibase:liquibase-core")
 	implementation("org.mapstruct:mapstruct:${mapStructVersion}")
@@ -47,4 +75,7 @@ dependencies {
 
 test {
 	useJUnitPlatform()
+	afterTest { desc, result ->
+		logger.quiet "Executing test ${desc.name} [${desc.className}] with result: ${result.resultType}"
+	}
 }
