@@ -1,0 +1,137 @@
+[
+  {
+    "id": "e5c34f4e-a5ce-466f-ad3a-53a3c49cba31",
+    "name": "Caesar Salad",
+    "instruction": "Chicken Cabbage Salad Cheese",
+    "servingAmount": 4,
+    "vegetarian": false,
+    "ingredients": [
+      {
+        "id": "37c5c88e-4407-4730-8276-40f593b4044b",
+        "name": "Chicken",
+        "vegetable": false
+      },
+      {
+        "id": "dc14a8ca-5632-45f4-a76f-467e151e4e40",
+        "name": "Cabbage",
+        "vegetable": true
+      },
+      {
+        "id": "57c98553-732f-4c3e-a120-ab9841043bb3",
+        "name": "Salad",
+        "vegetable": true
+      },
+      {
+        "id": "6a048fae-6140-4182-8117-55f93f4ed277",
+        "name": "Cheese",
+        "vegetable": false
+      }
+    ]
+  },
+  {
+    "id": "3843bbd2-6db4-49ba-af10-00bc73bf1e33",
+    "name": "Meatballs Spaghetti",
+    "instruction": "Beef Noodles Tomato Cheese",
+    "servingAmount": 6,
+    "vegetarian": false,
+    "ingredients": [
+      {
+        "id": "3c81f82a-1b9d-4fce-90d8-1f6f5c13fda8",
+        "name": "Beef",
+        "vegetable": false
+      },
+      {
+        "id": "48d24f38-c0b2-4788-827e-92dac87cd128",
+        "name": "Noodles",
+        "vegetable": false
+      },
+      {
+        "id": "03318532-f215-4510-918e-669510bd0854",
+        "name": "Tomato",
+        "vegetable": true
+      },
+      {
+        "id": "6a048fae-6140-4182-8117-55f93f4ed277",
+        "name": "Cheese",
+        "vegetable": false
+      }
+    ]
+  },
+  {
+    "id": "278eac50-02ae-482d-9c05-4fcef2e468ef",
+    "name": "Vitamin salad",
+    "instruction": "Carrot Potato Tomato Cabbage",
+    "servingAmount": 2,
+    "vegetarian": true,
+    "ingredients": [
+      {
+        "id": "1cf409f6-f835-40ab-9c32-ac8cf9d8fd47",
+        "name": "Carrot",
+        "vegetable": true
+      },
+      {
+        "id": "dbb719c4-7dad-482a-a0d6-78acb87a4652",
+        "name": "Potato",
+        "vegetable": true
+      },
+      {
+        "id": "03318532-f215-4510-918e-669510bd0854",
+        "name": "Tomato",
+        "vegetable": true
+      },
+      {
+        "id": "dc14a8ca-5632-45f4-a76f-467e151e4e40",
+        "name": "Cabbage",
+        "vegetable": true
+      }
+    ]
+  },
+  {
+    "id": "80ae64ea-5e76-4905-ae15-15b8eae859a4",
+    "name": "Boiled potato",
+    "instruction": "Potato, Carrot, Cabbage",
+    "servingAmount": 4,
+    "vegetarian": true,
+    "ingredients": [
+      {
+        "id": "dbb719c4-7dad-482a-a0d6-78acb87a4652",
+        "name": "Potato",
+        "vegetable": true
+      },
+      {
+        "id": "1cf409f6-f835-40ab-9c32-ac8cf9d8fd47",
+        "name": "Carrot",
+        "vegetable": true
+      },
+      {
+        "id": "dc14a8ca-5632-45f4-a76f-467e151e4e40",
+        "name": "Cabbage",
+        "vegetable": true
+      }
+    ]
+  },
+  {
+    "id": "cf195735-d378-4306-ac9b-44881181e12c",
+    "name": "Fried rice",
+    "instruction": "Rice, Tomato, Salad",
+    "servingAmount": 2,
+    "vegetarian": true,
+    "ingredients": [
+      {
+        "id": "5c953c7f-8936-463b-a2d8-80ddb2fe69bc",
+        "name": "Rice",
+        "vegetable": true
+      },
+      {
+        "id": "03318532-f215-4510-918e-669510bd0854",
+        "name": "Tomato",
+        "vegetable": true
+      },
+      {
+        "id": "57c98553-732f-4c3e-a120-ab9841043bb3",
+        "name": "Salad",
+        "vegetable": true
+      }
+    ]
+  }
+]

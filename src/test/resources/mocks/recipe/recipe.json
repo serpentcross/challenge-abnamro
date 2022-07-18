@@ -1,0 +1,24 @@
+{
+  "id": "58a5822a-06ef-4b58-93cc-26761ea5a203",
+  "name": "Vegetarian cutlets",
+  "instruction": "Tomato, Cabbage, Nuts",
+  "servingAmount": 6,
+  "vegetarian": true,
+  "ingredients": [
+    {
+      "id": "03318532-f215-4510-918e-669510bd0854",
+      "name": "Tomato",
+      "vegetable": true
+    },
+    {
+      "id": "dc14a8ca-5632-45f4-a76f-467e151e4e40",
+      "name": "Cabbage",
+      "vegetable": true
+    },
+    {
+      "id": "590f2310-7c6f-48d1-881f-8c95d6c45983",
+      "name": "Nuts",
+      "vegetable": true
+    }
+  ]
+}

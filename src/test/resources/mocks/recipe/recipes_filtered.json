@@ -1,0 +1,55 @@
+[
+  {
+    "id": "278eac50-02ae-482d-9c05-4fcef2e468ef",
+    "name": "Vitamin salad",
+    "instruction": "Carrot Potato Tomato Cabbage",
+    "servingAmount": 2,
+    "vegetarian": true,
+    "ingredients": [
+      {
+        "id": "1cf409f6-f835-40ab-9c32-ac8cf9d8fd47",
+        "name": "Carrot",
+        "vegetable": true
+      },
+      {
+        "id": "dbb719c4-7dad-482a-a0d6-78acb87a4652",
+        "name": "Potato",
+        "vegetable": true
+      },
+      {
+        "id": "03318532-f215-4510-918e-669510bd0854",
+        "name": "Tomato",
+        "vegetable": true
+      },
+      {
+        "id": "dc14a8ca-5632-45f4-a76f-467e151e4e40",
+        "name": "Cabbage",
+        "vegetable": true
+      }
+    ]
+  },
+  {
+    "id": "cf195735-d378-4306-ac9b-44881181e12c",
+    "name": "Fried rice",
+    "instruction": "Rice, Tomato, Salad",
+    "servingAmount": 2,
+    "vegetarian": true,
+    "ingredients": [
+      {
+        "id": "5c953c7f-8936-463b-a2d8-80ddb2fe69bc",
+        "name": "Rice",
+        "vegetable": true
+      },
+      {
+        "id": "03318532-f215-4510-918e-669510bd0854",
+        "name": "Tomato",
+        "vegetable": true
+      },
+      {
+        "id": "57c98553-732f-4c3e-a120-ab9841043bb3",
+        "name": "Salad",
+        "vegetable": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "7b2bd50f-95b2-4674-97ff-7cc9349b95d4",
+    "name": "Yogurt",
+    "vegetable" : false
+  },
+  {
+    "id": "0ef0f4cf-1d80-427f-9669-715f69f00456",
+    "name": "Beans",
+    "vegetable" : true
+  },
+  {
+    "id": "3b96e46f-7038-4ab8-b0e1-b4c54e917eef",
+    "name": "Carrot",
+    "vegetable" : true
+  },
+  {
+    "id": "afe5e38d-6401-4ad3-8145-e9c537ae2fef",
+    "name": "Chicken",
+    "vegetable" : false
+  },
+  {
+    "id": "fa441a3d-db5b-4ac4-bffc-4d7596e3438b",
+    "name": "Potato",
+    "vegetable" : true
+  }
+]

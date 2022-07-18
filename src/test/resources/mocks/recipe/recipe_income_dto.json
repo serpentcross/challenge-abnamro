@@ -1,0 +1,19 @@
+{
+  "name": "Soup with meatballs",
+  "instruction": "Make meatballs by rolling them in your hands. They don’t have to be perfect, just round-ish. Toss them in your pot as you make them. Recruit a helper for meatballs to liven (and speed) things up. Cook for at least 10 minutes or until meatballs are cooked through and floating at the top.",
+  "servingAmount": 8,
+  "ingredients": [
+    {
+      "id": "1e9f9081-7802-492e-a5d0-de2d21c98246"
+    },
+    {
+      "id": "9cab193c-d0fa-4a51-a910-5ae1d508b142"
+    },
+    {
+      "id": "efbbe890-4cbb-445d-9acc-1f2e0aaeccc4"
+    },
+    {
+      "id": "985355a8-8425-4219-bab8-d5211748fe67"
+    }
+  ]
+}
