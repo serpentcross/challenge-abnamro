@@ -153,6 +153,17 @@ Should return a response in JSON format:
 ]
 ```
 
+### Accessing database
+
+Use any Internet browser:
+
+```
+http://localhost:8080/api/h2-console
+
+login: sa
+passw: (none)
+```
+
 ### Documentaion
 
 A detailed documentation, which contains full API description is located there:
