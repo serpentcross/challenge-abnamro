@@ -1,7 +1,6 @@
 package com.cooking.api.controllers;
 
 import com.cooking.api.decorators.RecipeDecorator;
-import com.cooking.api.dto.IngredientDto;
 import com.cooking.api.dto.RecipeDto;
 
 import com.fasterxml.jackson.core.type.TypeReference;
