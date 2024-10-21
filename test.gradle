@@ -2,7 +2,7 @@ plugins {
 	id "org.springframework.boot" version "3.2.3"
 	id "io.spring.dependency-management" version "1.0.11.RELEASE"
 	id "java"
-	id "org.openapi.generator" version "6.0.0"
+	id "org.openapi.generator" version "7.9.0"
 }
 
 group = 'com.cooking'
@@ -15,16 +15,15 @@ repositories {
 
 def h2Version = "2.3.232"
 def jacksonDatabindNullableVersion = "0.2.6"
-def liquibaseVersion = "4.29.1"
+def liquibaseVersion = "4.29.2"
 def lombokVersion = "1.18.34"
-def mapStructVersion = "1.6.0.Beta1"
-def postgreSqlVersion = "42.7.3"
-def snakeYmlVersion = "2.2"
-def springVersion = "3.3.2"
+def mapStructVersion = "1.6.2"
+def postgreSqlVersion = "42.7.4"
+def snakeYmlVersion = "2.3"
+def springVersion = "3.3.4"
 def springDocVersion = "2.6.0"
 
 ext {
-
 	set('h2-database.version', '2.2.224')
 	set('openapi-generator-maven-plugin.version', '7.4.0')
 }
@@ -118,3 +117,5 @@ openApiGenerate {
 		useJakartaEe: "true"
 	]
 }
+
+compileJava.dependsOn 'openApiGenerate'
